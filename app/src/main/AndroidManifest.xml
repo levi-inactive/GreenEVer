@@ -16,6 +16,50 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".Start"
+            android:label="@string/title_activity_start"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity
+            android:name=".CarSelection"
+            android:label="@string/title_activity_car_selection"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".Start">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Start"/>
+        </activity>
+
+        <activity
+            android:name=".Report"
+            android:label="@string/title_activity_report"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".CarSelection">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CarSelection"/>
+        </activity>
     </application>
 
 </manifest>

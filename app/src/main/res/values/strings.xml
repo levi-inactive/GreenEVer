@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">GreenEVer</string>
+    <string name="greenever">GreenEVer</string>
+    <string name="imvLogo_contentDescription">Logo GreenEVer</string>
+    <string name="btnSignUp">Registrarse</string>
+    <string name="btnSignIn">Iniciar Sesión</string>
+    <string name="edtUserHint">Usuario</string>
+    <string name="edtPasswordHint">Contraseña</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="edtLNameHint">Apellidos</string>
+    <string name="edtFNameHint">Nombre</string>
+    <string name="edtEmail">Correo electrónico</string>
+    <string name="title_activity_start">Start</string>
+    <string name="btnNewReport">Nuevo Reporte</string>
+    <string name="title_activity_car_selection">CarSelection</string>
+    <string name="tvStep1">Paso 1:</string>
+    <string name="btnNext">Siguiente</string>
+    <string name="tvImv">Nombre Carro</string>
+    <string name="title_activity_km">Km</string>
+    <string name="tvStep2">Paso 2:</string>
+    <string name="tvKmQuestion">¿Cuántos kilómetros recorres al mes?</string>
+    <string name="edtKmQuestion">Kilómetros al mes</string>
+    <string name="title_activity_report">Report</string>
+    <string name="btnOk">OK!</string>
+    <string name="toastSignUpSucess">¡Registro exitoso!</string>
 </resources>
